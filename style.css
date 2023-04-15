@@ -1,0 +1,45 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #eee;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-direction: column;
+}
+.eventCard{
+    width: 500px;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contestLink button a{
+    text-decoration: none;
+    color: white;
+}
+.contestLink button{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+}
+.contestBody{
+    font-size: 12px;
+    font-family: "Gill Sans", sans-serif;
+}
